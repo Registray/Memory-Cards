@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZTW-en-t7x">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="5o3-bu-Jcx">
+            <objects>
+                <viewController id="6tU-Ak-7r9" customClass="SecondViewController" customModule="Memory_Cards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Un8-gW-pbe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Set Up Your Cards" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svr-Vl-brI">
+                                <rect key="frame" x="20" y="44" width="374" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" systemColor="labelColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OuB-BN-37E">
+                                <rect key="frame" x="14" y="160" width="156" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i6B-XC-hlP">
+                                <rect key="frame" x="238" y="160" width="156" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First Side" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yES-0P-10B">
+                                <rect key="frame" x="20" y="102" width="150" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Second Side" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jKz-Zn-OcT">
+                                <rect key="frame" x="244" y="102" width="150" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" systemColor="labelColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4T2-0h-Isa">
+                                <rect key="frame" x="132" y="298" width="150" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <state key="normal" title="Add Card">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Exl-E5-FjM">
+                                <rect key="frame" x="132" y="297" width="150" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <state key="normal" title="Add Card">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ufw-0n-IIj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="TSW-U8-u1r"/>
+                    <connections>
+                        <outlet property="addCardButton" destination="Exl-E5-FjM" id="W7f-S8-5jv"/>
+                        <outlet property="firstCardField" destination="OuB-BN-37E" id="Vrx-36-eIn"/>
+                        <outlet property="secondCardField" destination="i6B-XC-hlP" id="R0P-KD-BEh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Teo-nY-V0V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-928.98550724637687" y="535.71428571428567"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="lcc-C1-dBk">
+            <objects>
+                <viewController id="YSZ-9B-13Y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D7s-VO-MXm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="QyI-Y4-j60"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="OCY-oJ-6rP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Av8-9j-cyE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-209" y="536"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ADl-ka-yHc">
+            <objects>
+                <viewController id="qmd-bo-zlY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0FX-TY-nrL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="AzN-k0-rss"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="X0f-Lu-Jc3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F0a-Ub-0pV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1597.1014492753625" y="-164.0625"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="68C-yX-Gau">
+            <objects>
+                <viewController id="SaT-mE-rdx" customClass="ViewController" customModule="Memory_Cards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JKD-zp-5py">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="dTA-6q-5YJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="paperplane.fill" catalog="system" id="S6Y-ea-cGo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OwF-3s-n66" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1672" y="536"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="4Z9-rE-Hrm">
+            <objects>
+                <tabBarController id="ZTW-en-t7x" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="p56-St-x6X">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="SaT-mE-rdx" kind="relationship" relationship="viewControllers" id="IYp-IT-HXb"/>
+                        <segue destination="6tU-Ak-7r9" kind="relationship" relationship="viewControllers" id="usc-PT-pjr"/>
+                        <segue destination="YSZ-9B-13Y" kind="relationship" relationship="viewControllers" id="Ur3-Ke-Lx0"/>
+                        <segue destination="gKs-XY-yPE" kind="relationship" relationship="viewControllers" id="x1M-Ug-99Q"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x9r-Kq-4g9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-538" y="-164"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="LmV-Xd-pZu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gKs-XY-yPE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="9ih-Nz-2Mv"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="a6m-Zr-IUl">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qmd-bo-zlY" kind="relationship" relationship="rootViewController" id="Jvm-Ez-Bor"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X2Z-OS-hiq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="686.95652173913049" y="-164.0625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="paperplane.fill" catalog="system" width="128" height="118"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
