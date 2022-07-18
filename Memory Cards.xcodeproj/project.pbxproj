@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F20DA4F72885273D00B3FA78 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20DA4F62885273D00B3FA78 /* TableViewController.swift */; };
 		F23F19692883185D00A6CF8C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F19682883185D00A6CF8C /* SecondViewController.swift */; };
 		F257DAB7288199A8000E3D24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F257DAB6288199A8000E3D24 /* AppDelegate.swift */; };
 		F257DAB9288199A8000E3D24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F257DAB8288199A8000E3D24 /* SceneDelegate.swift */; };
@@ -15,10 +16,13 @@
 		F257DAC0288199AA000E3D24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F257DABF288199AA000E3D24 /* Assets.xcassets */; };
 		F257DAC3288199AA000E3D24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F257DAC1288199AA000E3D24 /* LaunchScreen.storyboard */; };
 		F257DACF28819E5D000E3D24 /* MemoryCardsBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F257DACE28819E5C000E3D24 /* MemoryCardsBrain.swift */; };
+		F266B96628859F3900FB583C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266B96528859F3900FB583C /* TestViewController.swift */; };
 		F2FCBC8D28840B7800566A4A /* MemoryCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FCBC8C28840B7800566A4A /* MemoryCards.swift */; };
+		F2FCBC9328840F6600566A4A /* WordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FCBC9228840F6600566A4A /* WordsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F20DA4F62885273D00B3FA78 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		F23F19682883185D00A6CF8C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F257DAB3288199A8000E3D24 /* Memory Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memory Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F257DAB6288199A8000E3D24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +33,9 @@
 		F257DAC2288199AA000E3D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F257DAC4288199AA000E3D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F257DACE28819E5C000E3D24 /* MemoryCardsBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCardsBrain.swift; sourceTree = "<group>"; };
+		F266B96528859F3900FB583C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		F2FCBC8C28840B7800566A4A /* MemoryCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCards.swift; sourceTree = "<group>"; };
+		F2FCBC9228840F6600566A4A /* WordsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				F257DABC288199A8000E3D24 /* Main.storyboard */,
+				F2FCBC9228840F6600566A4A /* WordsCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -87,6 +94,8 @@
 			children = (
 				F257DABA288199A8000E3D24 /* ViewController.swift */,
 				F23F19682883185D00A6CF8C /* SecondViewController.swift */,
+				F20DA4F62885273D00B3FA78 /* TableViewController.swift */,
+				F266B96528859F3900FB583C /* TestViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -171,10 +180,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F257DABB288199A8000E3D24 /* ViewController.swift in Sources */,
+				F2FCBC9328840F6600566A4A /* WordsCell.swift in Sources */,
 				F257DAB7288199A8000E3D24 /* AppDelegate.swift in Sources */,
+				F20DA4F72885273D00B3FA78 /* TableViewController.swift in Sources */,
 				F2FCBC8D28840B7800566A4A /* MemoryCards.swift in Sources */,
 				F257DAB9288199A8000E3D24 /* SceneDelegate.swift in Sources */,
 				F23F19692883185D00A6CF8C /* SecondViewController.swift in Sources */,
+				F266B96628859F3900FB583C /* TestViewController.swift in Sources */,
 				F257DACF28819E5D000E3D24 /* MemoryCardsBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

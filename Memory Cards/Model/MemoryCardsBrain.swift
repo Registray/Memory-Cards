@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+class MemoryCardsBrain {
+    var word: String
+    
+    init(word: String) {
+        self.word = word
+    }
+    
+    
+}
