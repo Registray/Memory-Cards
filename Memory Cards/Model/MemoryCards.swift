@@ -10,8 +10,6 @@ import Foundation
 
 struct MemoryCards {
     
-    var memorycards = [String]()
-        
-    
-    
+    var memoryCardsList = ["IT"]
+    var memoryCardsArray = ["background" : "фоновий режим", "considerable" : "значний", "crash" : "збій"]
 }
